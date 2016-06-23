@@ -4,6 +4,6 @@ clazz: com.stepstone.datawizards.etl.transformations.keyworddim.Transformation
 master: local[1]
 packages: org.apache.hadoop:hadoop-aws:2.7.2
 jars: /opt/transformations_dev/transformations-common-1.0-SNAPSHOT.jar
-transformationDir :/opt/transformations_dev/helios-keyword-dim
+transformationDir: /opt/transformations_dev/helios-keyword-dim
 sshKeyPath: /home/aleszm01/DataWizardsKey.pem
 hadoopHost: hadoop@10.249.1.5
